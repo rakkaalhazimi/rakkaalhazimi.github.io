@@ -131,6 +131,7 @@ strong {
 b,
 strong {
   font-weight: bolder;
+  color: royalblue;
 }
 
 /**
@@ -1247,6 +1248,25 @@ a.newer-posts:hover {
   width: 100%;
   height: 100%;
 }
+
+/* Rakka's change  todo: fix width for max-width:962 screen */
+.page-paragraph {
+  margin: auto;
+  width: 80%;
+}
+
+.page-paragraph p {
+  line-height: 2.0;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+.page-paragraph p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ /* end change */
 
 .page-footer {
   display: -webkit-box;

@@ -1,13 +1,16 @@
 ---
 layout: post
-title: How I Rest From Work
-date: 2017-09-12 13:32:20 +0300
+title: How to Imagine Linear Regression
+date: 2021-10-11 21:08:25 +07:00
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
-fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
+img: i-linreg.jpg # Add image post (optional)
+fig-caption: A Comet passing through the stars represents a linear regression # Add figcaption (optional)
+tags: [Machine Learning]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
+You should've already know that linear regression is a linear model that is used to predicts scalar target/response based on its relationship with explanatory variable using the linear function. We can see it as a line that goes through the
+small or big amount of data. The line is designed by the matematical equation which we called a function, a linear one. If you don't have a grasp about what linearity is, it's just a thing that have a constant change over time, like our age, we sure will get 1 year older for every year we passed. 
+
+Aside from linearity, what does the "regression" means in linear regression?, well it's a reduction from its original state. Then, which reduction do we see in there? it's just a line that overlap the data, how can they see it as a reduction?. If you look closely, you'll notice that those line that we're talking about is try to **simply explain** the relationship between a response and explanatory variables. The explanation here is simplified by the form of a line that goes through the data. That is the reduction part lies, **the line is the reduced form of explanation**.
 
 ## Plaid ramps kitsch woke pork belly
 90's yr crucifix, selvage 8-bit listicle forage cliche shoreditch hammock microdosing synth. Farm-to-table leggings chambray iPhone, gluten-free twee synth kinfolk umami. Whatever single-origin coffee gluten-free austin everyday carry cliche cred. Plaid ramps kitsch woke pork belly organic. Trust fund whatever coloring book kombucha brooklyn. Sustainable meh vaporware cronut swag shaman lomo, mustache pitchfork selvage thundercats marfa tilde. Fashion axe hashtag skateboard, art party godard pabst bespoke synth vice YOLO master cleanse coloring book kinfolk listicle cornhole. Try-hard mixtape umami fanny pack man bun gastropub franzen tbh. Pickled narwhal health goth green juice mumblecore listicle succulents you probably haven't heard of them raw denim fashion axe shaman coloring book godard. Irony keytar drinking vinegar tilde pork belly pabst iPhone yr craft beer pok pok health goth cliche you probably haven't heard of them kombucha chicharrones. Direct trade hella roof party chia. Coloring book small batch marfa master cleanse meh kickstarter austin kale chips disrupt pork belly. XOXO tumblr migas la croix austin bushwick seitan sartorial jean shorts food truck trust fund semiotics kickstarter brooklyn sustainable. Umami knausgaard mixtape marfa. Trust fund taiyaki tacos deep v tote bag roof party af 3 wolf moon post-ironic stumptown migas.
