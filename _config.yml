@@ -28,6 +28,7 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-spaceship
   - jemoji
 
 paginate: 8
