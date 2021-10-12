@@ -19,7 +19,7 @@ $ \hat{y} $ is the estimation of response, $ \beta_{0} $ is the intercept, $ \be
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
-As you can see from the graphs, $ \beta_{0} $ or the bias is responsible to adjust the line height, while the $ \beta_{n} $ or the weights is responsible to adjust the slope of the line. Both of them will try to approximate the input data (features) to get as close as possible to the output data (target). 
+As you can see from the graphs, $ \beta_{0} $ or the bias is responsible to adjust the line height, while the $ \beta_{n} $ or the weights is responsible to adjust the slope of the line. Both of them will try to approximate the input data (features) to get as close as possible to the output data (target).  
 
 >Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
 
