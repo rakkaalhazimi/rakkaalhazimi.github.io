@@ -1,2 +1,30 @@
 <!-- Main Js -->
-<script src="{{site.baseurl}}/assets/js/main.js"></script>
+<!-- <script src="{{site.baseurl}}/assets/js/main.js"></script> -->
+
+<!-- MathJax -->
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            packages: ['base', 'ams']
+        },
+        loader: {
+            load: ['ui/menu', '[tex]/ams']
+        },
+        extensions: [
+            "tex2jax.js",  // HERE
+            "MathMenu.js",
+            "MathZoom.js",
+            "AssistiveMML.js",
+            "a11y/accessibility-menu.js"
+        ],
+        tex2jax: {      // AND HERE
+            inlineMath: [['$', '$']],
+            displayMath: [['$$', '$$']]
+        },
+        jax: ["input/TeX", "output/CommonHTML"],
+
+    };
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
