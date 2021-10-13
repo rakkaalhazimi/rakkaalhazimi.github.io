@@ -11,6 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Rakka Alhazimi # add your name
 author-img: rakka-alhazimi.jpg # add your photo
 about-author: I am a self-taught programmer who focused on Machine Learning with Python. # add description
+author-share: logo.jpg # image shown on website share
 social-twitter: AlhazimiRakka # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: rakkaalhazimi # add your Github handle
