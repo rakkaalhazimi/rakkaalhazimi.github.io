@@ -10,7 +10,7 @@ tags: [Machine Learning]
 You should've already know that linear regression is a linear model that is used to predicts scalar target/response based on its relationship with explanatory variable using the linear function. We can see it as a line that goes through the
 small or big amount of data. The line is designed by the matematical equation which we called a function, a linear one. If you don't have a grasp about what linearity is, it's just a thing that have a constant change over time, like our age, we sure will get 1 year older for every year we passed.
 
-Aside from linearity, what does the "regression" means in linear regression?, well it's a reduction from the original state of something. Then, which reduction do we see in there? it's just a line that overlap the data, how can they see it as a reduction?. If you look closely, you'll notice that those line that we're talking about is try to simply explain the relationship between a response and explanatory variables. The explanation here is simplified by the form of a line that goes through the data. That is the reduction part lies, **the line is the reduced form of explanation**.
+Aside from linearity, what does the "regression" means in linear regression?, well it's a reduction from the original state of something. Then, which reduction do we see in there? it's just a line that overlap the data, how can they see it as a reduction?. If you look closely, you'll notice that those line that we're talking about is try to simply explain the relationship between a response and explanatory variables. **The explanation here is simplified by the form of a line that goes through the data. That is the reduction part lies, the line is the reduced form of explanation**.
 
 ## The Mathematical Functions
 The mathematical functions that design the regression line is:  
@@ -26,7 +26,10 @@ As you can see from the graphs, $$ \beta_{0} $$ or the bias is responsible to ad
 After knowing the mathematical functions, are you curious about how to find this specific bias and weights?. They can be find using matrix form multiplication:   
 <center>$$ \hat{y} = X\hat{\beta} = \hat{\beta} = X(X^{T}X)^{-1}X^{T}y $$</center>  
 
-Here we can see the multiplications factor $$ H = X(X^{T}X)^{-1}X^{T} $$ is called the "hat" matrix, I remembered what Prof. Gilbert Strang said in the MIT 18.065 videos, he said something like this **"The matrix multiplication of $$ AB $$ can be represent as transforming the $$ B $$ matrix into the column space of $$ A $$"**.
+Here we can see the multiplications factor $$ H = X(X^{T}X)^{-1}X^{T} $$ is called the "hat" matrix, I remembered what Prof. Gilbert Strang said in the MIT 18.065 videos, he said something like this:
+
+>**"The matrix multiplication of $$ AB $$ can be represent as transforming the $$ B $$ matrix into the column space of $$ A $$"**.
+
 We can say that this column space of $$ A $$ is just a dimensional space that has been spaned by the vectors of $$ A $$. We can also do the same with $$ y $$ here, it's also transformed into the column space of $$ X $$. That is what happened when we use linear regression, we just projecting $$ y $$ into the subspace of $$ X $$. If you want to know about linear transformation, checkout 13lue Brown series about linear algebra to understand the meaning behind matrix multiplication [here][13BlueBrown].
 
 Then, $$ X $$ is a matrix which the column vectors are consist of $$ x_{0}, x_{1}, ..., x_{p} $$, with $$ x_{0} \in 1 $$. $$ x_{0} $$ is just a constant variable 1 that will determine the value of bias or $$ \beta_{0} $$ and the rest will determine the value of weights. Now, I want you to try implement the formula by yourself to get a good grasp about the calculation. Use whether R, Python or anything else. It is a good practice to try implement the calculation, you can also try implement the matrix multiplication here, create a 2D matrix and multiply it with vector then plot the result. See the difference between the regular vector and the transformed vector.
