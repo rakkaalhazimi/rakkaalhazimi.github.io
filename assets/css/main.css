@@ -128,10 +128,16 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+ /* Rakka's Change */
 b,
 strong {
   font-weight: bolder;
-  color: royalblue;
+  transition: 1s ease-out;
+}
+
+b,
+strong:hover {
+  color: orangered;
 }
 
 /**
