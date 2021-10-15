@@ -1263,8 +1263,6 @@ a.newer-posts:hover {
 
 .page-paragraph p {
   line-height: 2.0;
-  text-align: justify;
-  text-indent: 1.5em;
 }
 
 .page-paragraph p img {
@@ -1413,6 +1411,11 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+  /* Rakka's change */
+  .page-paragraph {
+    width: 100%;
+  }
+  /* end change */
 }
 
 /* Small Devices, Tablets */
