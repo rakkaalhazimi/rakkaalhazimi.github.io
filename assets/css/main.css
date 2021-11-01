@@ -135,11 +135,19 @@ strong {
   transition: 1s ease-out;
 }
 
+i {
+  font-size: 11px;
+  transition: 0.5s ease-out;
+}
+
 b,
+i:hover,
 strong:hover {
   color: orangered;
 }
 
+
+/* End Change */
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
