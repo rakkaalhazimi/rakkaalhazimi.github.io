@@ -33,8 +33,9 @@ Additionaly, when we try to classify a new data point, the distance to the other
 # Could we use KNN in High Dimension?
 Okay this'll be short. The amount of sample that we need in high dimensional space is proportionally exponential with the number of **D** or dimension. Take a look at the plot.
 
-I can clearly see that the amount of samples I need to safely goes through the high dimension is become unmanageable. I didn't say that is impossible, but it's not worth it. Why would I bother to commit something that would bring me a frustation? I'd rather do something about the high dimension and how to overcome it. Once again the answer is no.
+I can clearly see that the amount of samples I need to safely go through the high dimension is become unmanageable. I didn't say that this is impossible, but it's not worth it. Why would I bother to commit something that would bring me a frustation? I'd rather do something about the high dimension and how to overcome it. Once again the answer is no.
 
 <br/>
 
-# 
+# Conclusion
+Dealing with high dimensional is a hard problem to tackle, especially for a simple model like KNN. The number of samples goes up exponentially and we can't manage to get such number of samples. More volume on space, more samples we need. Like I say before "I'd rather do something about the high dimension", therefore I need to reduce it. Dimensionality reduction is used in Unsupervised Learning, where we only give input data to the machine, then this machine need to find the relationship between this input data. One of the method is Dimensionality Reduction. What'll we do is to decompose our matrix representation of data and then fetch N-vector with high importance. That topic is will be discussed on another post though, you can also try to find what are the drawbacks when we have too many variable. Well, see you in the next post.
