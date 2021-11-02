@@ -17,7 +17,7 @@ The mathematical functions that design the regression line is:
 <center>$$ \hat{y} = \beta_{0} + x_{1}\beta_{1} + ... + x_{n}\beta_{n} $$</center>  
 $$ \hat{y} $$ is the estimation of response, $$ \beta_{0} $$ is the intercept, $$ \beta_{n} $$ is the coefficients of regression and $$ x_{n} $$ is the explanatory variables. In Machine Learning, we would call response as target, intercept as bias, coefficients as weight (interchangeably) and explanatory variables as features. The best way to understand this equation is by seeing the graphs its represent.
 
-<script src="{{site.baseurl}}/assets/js/interactive_linreg.js" id="103e678b-566f-4c2a-873b-4ce43171e49a"></script>
+<script src="{{site.baseurl}}/assets/js/interactive_linreg.js" id="e4db036e-7387-49b2-9645-a849fcfb3737"></script>
 
 As you can see from the graphs, $$ \beta_{0} $$ or the bias is responsible to adjust the height of the line, while the $$ \beta_{n} $$ or the weights is responsible to adjust the slope of the line. Both of them will be set to approximate the input data (features) to get as close as possible to the output data (target). In order to do so, they need to minimize the Residual Sum Square of Error (RSS). This RSS is just a square difference between the estimated target and the true target. It measures the performance of regression model (not the overall performance though).
 
